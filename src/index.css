@@ -1,0 +1,88 @@
+:root {
+  --color-primary: #ff9c1b;
+  --color-secondary: #ec1b09;
+  --color-text: #3a3a3a;
+  --color-text-light: #666666;
+  --color-background: #ffffff;
+  --color-error: #e97171;
+  --color-light-gray: #f2f5f9;
+
+  --font-primary: "Poppins", sans-serif;
+  --font-secondary: "Raleway", sans-serif;
+
+  --font-size-sm: 0.8rem;
+  --font-size-base: 1rem;
+  --font-size-md: 1.25rem;
+  --font-size-lg: 1.5rem;
+  --font-size-xl: 2rem;
+
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --raidus-xl: 32px;
+}
+
+/* src/styles/reset.css */
+
+/* 1. Kutu modelini daha sezgisel hale getir. */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* 2. Tarayıcıların varsayılan margin ve padding'ini kaldır. */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--color-light-gray);
+}
+
+/* 3. Daha akıcı resim ve medya davranışları sağla. */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 4. Form elemanlarında font kalıtımını sağla. */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* 5. Metin kaymalarını ve taşmalarını daha iyi yönet. */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+ol {
+  list-style: none;
+}
