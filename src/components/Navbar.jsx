@@ -1,11 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import {
-  ContactIcon,
-  HomeIcon,
-  ResumeIcon,
-  WorkIcon,
-} from "../../public/assets/icons/icons";
+import { ContactIcon, HomeIcon, ResumeIcon, WorkIcon } from "./icons";
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
