@@ -23,16 +23,16 @@ export const Sidebar = () => {
         <p className="title">FullStack Developer</p>
 
         <div className="social-icons">
-          <a href="#">
+          <a href="#" className="facebook">
             <FacebookIcon />
           </a>
-          <a href="#">
+          <a href="#" className="linkedin">
             <LinkedinIcon />
           </a>
-          <a href="#">
+          <a href="#" className="twetter">
             <TwitterIcon />
           </a>
-          <a href="#">
+          <a href="#" className="github">
             <GitHubIcon />
           </a>
         </div>
