@@ -32,7 +32,7 @@
   object-fit: cover;
 }
 h2 {
-  font-family: "Releway", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-style: Bold;
   font-size: 28px;
@@ -41,7 +41,7 @@ h2 {
   color: black;
 }
 p {
-  font-family: "Releway", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 500;
   font-style: Medium;
   font-size: 16px;
@@ -71,8 +71,6 @@ p {
   color: inherit;
 }
 
-
-
 .social-icons a:hover {
   background: linear-gradient(91.49deg, #ff9c1a 7.92%, #e80505 108.2%);
   transform: translateY(-5px);
@@ -94,6 +92,25 @@ p {
 }
 .github {
   color: #0b0909 !important;
+  transition: background-color 0.3s ease;
+  color: inherit;
+}
+
+.social-icons a svg {
+  transition: none;
+}
+.facebook {
+  color: #1877f2 !important;
+}
+.linkedin {
+  color: #0077f2 !important;
+}
+.twetter {
+  color: #1da1f2 !important;
+}
+
+.github {
+  color: #0b0909 !important;
 }
 
 .contact-info {
@@ -112,15 +129,22 @@ p {
 .contact-icon {
   display: flex;
   flex-direction: row;
+  flex-direction: row;
   justify-content: flex-start;
   align-items: center;
   width: 100%;
   height: 63px;
   gap: 12px;
   border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
   padding: 0 16px;
   cursor: pointer;
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.contact-icon:hover {
+  background-color: #d0e6ff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .contact-icon svg {
@@ -135,19 +159,25 @@ p {
 
 .contact-icon:hover svg {
   transform: rotate(360deg) scale(1.2);
+  transition: transform 0.6s ease;
 }
 .download-btn {
   display: inline-flex;
   align-items: center;
   gap: 8px;
   background: linear-gradient(91.49deg, #ff9c1a 7.92%, #e80505 108.2%);
+  background: linear-gradient(91.49deg, #ff9c1a 7.92%, #e80505 108.2%);
   color: white;
   padding: 10px 16px;
+  border-radius: 20px;
   border-radius: 20px;
   text-decoration: none;
   font-weight: bold;
   margin: auto;
+  margin: auto;
   transition: background 0.3s ease;
+  max-width: 185px;
+  height: 44px;
   max-width: 185px;
   height: 44px;
 }
