@@ -1,0 +1,187 @@
+.sidebar {
+  position: relative;
+  width: 400px;
+  height: 800px;
+  margin-right: auto;
+}
+
+.portre-container {
+  width: 400px;
+  height: 700px;
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding-top: 120px; /* Portreye yer açar */
+  text-align: center;
+
+  z-index: 1;
+}
+
+.portre-image {
+  position: absolute;
+  top: -100px; /* Yukarı taşır */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.portre-image img {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 28px;
+  line-height: 36px;
+  letter-spacing: 0%;
+  color: black;
+}
+p {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  line-height: 40px;
+  letter-spacing: 0%;
+  color: gray;
+}
+.social-icons {
+  display: flex;
+  justify-content: space-around;
+
+  align-items: center;
+  width: 296px;
+  height: 62px;
+  margin: 0 auto; /* Ortalar */
+  gap: 8px;
+}
+.social-icons a {
+  width: 60px;
+  height: 60px;
+  background-color: #f2f7fc;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  color: inherit;
+}
+
+.social-icons a:hover {
+  background: linear-gradient(91.49deg, #ff9c1a 7.92%, #e80505 108.2%);
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px -5px rgba(255, 15, 6, 0.4);
+  color: white !important;
+}
+
+.social-icons a svg {
+  transition: none;
+}
+.facebook {
+  color: #1877f2 !important;
+}
+.linkedin {
+  color: #0077b5 !important;
+}
+.twetter {
+  color: #1da1f2 !important;
+}
+.github {
+  color: #0b0909 !important;
+  transition: background-color 0.3s ease;
+  color: inherit;
+}
+
+.social-icons a svg {
+  transition: none;
+}
+.facebook {
+  color: #1877f2 !important;
+}
+.linkedin {
+  color: #0077f2 !important;
+}
+.twetter {
+  color: #1da1f2 !important;
+}
+
+.github {
+  color: #0b0909 !important;
+}
+
+.contact-info {
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+  background-color: #f2f5f9;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.contact-icon {
+  display: flex;
+  flex-direction: row;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 63px;
+  gap: 12px;
+  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding: 0 16px;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.contact-icon:hover {
+  background-color: #d0e6ff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.contact-icon svg {
+  width: 20px;
+  height: 20px;
+  transition: transform 0.6s ease;
+}
+.contact-icon:hover {
+  background-color: #e0ecf5;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.contact-icon:hover svg {
+  transform: rotate(360deg) scale(1.2);
+  transition: transform 0.6s ease;
+}
+.download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: linear-gradient(91.49deg, #ff9c1a 7.92%, #e80505 108.2%);
+  background: linear-gradient(91.49deg, #ff9c1a 7.92%, #e80505 108.2%);
+  color: white;
+  padding: 10px 16px;
+  border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  margin: auto;
+  margin: auto;
+  transition: background 0.3s ease;
+  max-width: 185px;
+  height: 44px;
+  max-width: 185px;
+  height: 44px;
+}
+
+.download-btn:hover {
+  background: linear-gradient(to right, #ff6a4d, #fd9c6b);
+}
