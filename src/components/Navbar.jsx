@@ -1,21 +1,23 @@
-import React from "react";
-import { useState } from "react";
-import { ContactIcon, HomeIcon, ResumeIcon, WorkIcon } from "./icons";
+import React, { useState } from "react";
+import {
+  ContactIcon,
+  HomeIcon,
+  ResumeIcon,
+  WorkIcon,
+} from "../../public/assets/icons/icons";
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <div className="navbar">
-      <div className="navbar-top">
-        <button
-          className={`hamburger ${menuOpen ? "active" : ""}`}
-          onClick={() => setMenuOpen(!menuOpen)}
-        >
-          <span>☰</span>
-        </button>
-        <button className="dark-mode-toggle"></button>
-      </div>
-      <div className={`navbar-container ${menuOpen ? "show" : ""}`}>
+      {/* Hamburger butonu menü dışında olmalı */}
+      <button className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
+        ☰
+      </button>
+
+      {/* Menü kutusu */}
+      <div className={`navbar-container ${menuOpen ? "open" : ""}`}>
         <div className="navbar-icon-button active">
           <HomeIcon />
           <span>Home</span>
@@ -36,5 +38,3 @@ export const Navbar = () => {
     </div>
   );
 };
-
-export default Navbar;
