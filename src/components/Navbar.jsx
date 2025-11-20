@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import { ContactIcon, HomeIcon, ResumeIcon, WorkIcon } from "./icons";
 
-export const Navbar = () => {
+export const Navbar = ({ activeTab, setActiveTab }) => {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
     <div className="navbar">
@@ -16,19 +16,40 @@ export const Navbar = () => {
         <button className="dark-mode-toggle"></button>
       </div>
       <div className={`navbar-container ${menuOpen ? "show" : ""}`}>
-        <div className="navbar-icon-button active">
+        <div
+          className={`navbar-icon-button ${
+            activeTab === "home" ? "active" : ""
+          }`}
+          onClick={() => setActiveTab("home")}
+        >
           <HomeIcon />
           <span>Home</span>
         </div>
-        <div className="navbar-icon-button">
+
+        <div
+          className={`navbar-icon-button ${
+            activeTab === "resume" ? "active" : ""
+          }`}
+          onClick={() => setActiveTab("resume")}
+        >
           <ResumeIcon />
           <span>Resume</span>
         </div>
-        <div className="navbar-icon-button">
+        <div
+          className={`navbar-icon-button ${
+            activeTab === "work" ? "active" : ""
+          }`}
+          onClick={() => setActiveTab("work")}
+        >
           <WorkIcon />
           <span>Work</span>
         </div>
-        <div className="navbar-icon-button">
+        <div
+          className={`navbar-icon-button ${
+            activeTab === "contact" ? "active" : ""
+          }`}
+          onClick={() => setActiveTab("contact")}
+        >
           <ContactIcon />
           <span>Contact</span>
         </div>

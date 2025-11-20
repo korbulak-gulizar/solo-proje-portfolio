@@ -3,13 +3,35 @@
   margin: 0 auto;
   overflow: hidden;
 }
+.layout-container {
+  display: flex;
+  gap: 20px;
+}
+body.light {
+  background-color: #f2f5f7;
+  color: #000000;
+}
+
+body.dark {
+  background-color: #1e1e1e;
+  color: #f2f5f7;
+}
+
+body.dark .navbar-container {
+  background-color: #2c2c2c;
+}
+
+body.dark .navbar-icon-button {
+  background-color: #444;
+  color: #f2f5f7;
+}
 
 .header-component {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 44px 0;
-  background-color: #f2f5f7;
+
   max-width: 1240px;
   height: 104px;
   margin-top: 10px;
@@ -90,6 +112,15 @@
 
 .active span {
   color: white;
+}
+/* Hamburger butonu varsayılan olarak gizli */
+.hamburger {
+  display: none;
+  font-size: 28px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
 }
 .hamburger {
   display: none;

@@ -1,8 +1,9 @@
 .sidebar {
   position: relative;
   width: 400px;
-  height: 800px;
+  height: 600px;
   margin-right: auto;
+  margin-top: 5px;
 }
 
 .portre-container {
@@ -13,7 +14,7 @@
   border-radius: 20px;
   padding-top: 120px; /* Portreye yer açar */
   text-align: center;
-
+  box-shadow: #0b0909;
   z-index: 1;
 }
 
