@@ -1,9 +1,14 @@
-import React from "react";
-import { useState } from "react";
-import { ContactIcon, HomeIcon, ResumeIcon, WorkIcon } from "./icons";
+import React, { useState } from "react";
+import {
+  ContactIcon,
+  HomeIcon,
+  ResumeIcon,
+  WorkIcon,
+} from "../../public/assets/icons/icons";
 
 export const Navbar = ({ activeTab, setActiveTab }) => {
   const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <div className="navbar">
       <div className="navbar-top">
@@ -57,5 +62,3 @@ export const Navbar = ({ activeTab, setActiveTab }) => {
     </div>
   );
 };
-
-export default Navbar;
