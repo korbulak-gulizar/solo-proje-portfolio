@@ -35,6 +35,8 @@
 .what {
   font-size: 32px;
   font-family: var(--font-primary);
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .card-container {
