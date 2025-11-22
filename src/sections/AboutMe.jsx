@@ -34,30 +34,30 @@ shape the future together.`,
     },
     {
       icon: <Designing />,
-      title: "Web Development",
+      title: "UI/UX",
       description: `As a developer, I find myself most captivated by the power and flexibility of 
 NEXT.js. I'm always eager to dive into new
 projects that leverage NEXT.js and 
 discover innovative ways to create fast, 
 scalable, and user-friendly applications.`,
-      bigColor: "#FFEBD1",
+      bigColor: "#F2F7FC",
     },
     {
       icon: <Mentorship />,
-      title: "Web Development",
-      description: `As a developer, I find myself most captivated by the power and flexibility of 
-NEXT.js. I'm always eager to dive into new
-projects that leverage NEXT.js and 
-discover innovative ways to create fast, 
-scalable, and user-friendly applications.`,
-      bigColor: "##F2F7FC",
+      title: "Mentorship",
+      description: `I have also found great joy in sharing my 
+knowledge with others. Being a technical 
+mentor allows me to give back to the 
+community that has supported me 
+throughout my career. `,
+      bigColor: "#FFEBD1",
     },
   ];
 
   return (
     <div className="aboutMe-container">
       <h2 className="aboutMe-title">
-        AboutMe
+        About Me
         <Line />
       </h2>
       <p>
@@ -70,8 +70,9 @@ scalable, and user-friendly applications.`,
       </p>
       <h3 className="what">What I do!</h3>
       <div className="card-container">
-        {skills.map((skill) => (
+        {skills.map((skill, index) => (
           <SkillCard
+            key={index}
             icon={skill?.icon}
             title={skill.title}
             description={skill.description}
