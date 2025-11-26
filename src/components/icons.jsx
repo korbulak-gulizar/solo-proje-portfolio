@@ -309,3 +309,111 @@ export const Line = () => (
     </defs>
   </svg>
 );
+export const Education = () => (
+  <svg
+    width="28"
+    height="28"
+    viewBox="0 0 28 28"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M1.15506 10.0522L13.3028 5.19818L25.4505 10.0522L13.3028 14.9062L1.15506 10.0522Z"
+      stroke="url(#paint0_linear_1_201)"
+      stroke-width="2.31143"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M25.4492 10.1169V15.4465M6.67578 12.6103V19.8C6.67578 19.8 9.45528 22.535 13.3015 22.535C17.1483 22.535 19.9278 19.8 19.9278 19.8V12.6103"
+      stroke="url(#paint1_linear_1_201)"
+      stroke-width="2.31143"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <defs>
+      <linearGradient
+        id="paint0_linear_1_201"
+        x1="13.3028"
+        y1="5.19818"
+        x2="13.3028"
+        y2="14.9062"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop stop-color="#FF9C1B" />
+        <stop offset="1" stop-color="#EC1B09" />
+      </linearGradient>
+      <linearGradient
+        id="paint1_linear_1_201"
+        x1="16.0625"
+        y1="10.1169"
+        x2="16.0625"
+        y2="22.535"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop stop-color="#FF9C1B" />
+        <stop offset="1" stop-color="#EC1B09" />
+      </linearGradient>
+    </defs>
+  </svg>
+);
+export const Experince = () => (
+  <svg
+    width="28"
+    height="28"
+    viewBox="0 0 28 28"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M9.24577 9.2493V6.93787C9.24577 6.32484 9.48929 5.73691 9.92277 5.30344C10.3562 4.86996 10.9442 4.62643 11.5572 4.62643H16.1801C16.7931 4.62643 17.381 4.86996 17.8145 5.30344C18.248 5.73691 18.4915 6.32484 18.4915 6.93787V9.2493M4.6229 16.1836L8.26341 17.0931C11.9436 18.013 15.7937 18.013 19.4739 17.0931L23.1144 16.1836"
+      stroke="url(#paint0_linear_1_207)"
+      stroke-width="2.31143"
+      stroke-linecap="round"
+    />
+    <path
+      d="M4.6229 11.5604C4.6229 10.9474 4.86643 10.3595 5.2999 9.926C5.73338 9.49252 6.3213 9.24899 6.93433 9.24899H20.8029C21.416 9.24899 22.0039 9.49252 22.4374 9.926C22.8708 10.3595 23.1144 10.9474 23.1144 11.5604V20.8062C23.1144 21.4192 22.8708 22.0071 22.4374 22.4406C22.0039 22.8741 21.416 23.1176 20.8029 23.1176H6.93433C6.3213 23.1176 5.73338 22.8741 5.2999 22.4406C4.86643 22.0071 4.6229 21.4192 4.6229 20.8062V11.5604Z"
+      stroke="url(#paint1_linear_1_207)"
+      stroke-width="2.31143"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M13.8661 15.0254C14.5044 15.0254 15.0219 14.508 15.0219 13.8697C15.0219 13.2314 14.5044 12.714 13.8661 12.714C13.2279 12.714 12.7104 13.2314 12.7104 13.8697C12.7104 14.508 13.2279 15.0254 13.8661 15.0254Z"
+      fill="url(#paint2_linear_1_207)"
+    />
+    <defs>
+      <linearGradient
+        id="paint0_linear_1_207"
+        x1="13.8686"
+        y1="4.62643"
+        x2="13.8686"
+        y2="17.7831"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop stop-color="#FF9C1A" />
+        <stop offset="1" stop-color="#E80505" />
+      </linearGradient>
+      <linearGradient
+        id="paint1_linear_1_207"
+        x1="13.8686"
+        y1="9.24899"
+        x2="13.8686"
+        y2="23.1176"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop stop-color="#FF9C1A" />
+        <stop offset="1" stop-color="#E80505" />
+      </linearGradient>
+      <linearGradient
+        id="paint2_linear_1_207"
+        x1="13.8661"
+        y1="12.714"
+        x2="13.8661"
+        y2="15.0254"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop stop-color="#FF9C1A" />
+        <stop offset="1" stop-color="#E80505" />
+      </linearGradient>
+    </defs>
+  </svg>
+);

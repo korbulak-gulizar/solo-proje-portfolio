@@ -186,3 +186,11 @@ p {
 .download-btn:hover {
   background: linear-gradient(to right, #ff6a4d, #fd9c6b);
 }
+@media (max-width: 768px) {
+  .sidebar,
+  .portre-container,
+  .social-icons,
+  .contact-info {
+    display: none !important;
+  }
+}
