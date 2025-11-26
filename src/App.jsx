@@ -4,7 +4,7 @@ import { Navbar } from "./components/Navbar";
 import { Sidebar } from "./components/Sidebar";
 import AboutMe from "./sections/AboutMe";
 import Resume from "./sections/Resume";
-import { use } from "react";
+
 
 const App = () => {
   const [activeTab, setActiveTab] = useState("home");

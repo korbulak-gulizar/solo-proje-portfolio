@@ -1,5 +1,5 @@
 import React from "react";
-import "../about.css";
+import "../styles/about.css";
 
 const SkillCard = ({ icon, title, description, bgColor }) => {
   return (
