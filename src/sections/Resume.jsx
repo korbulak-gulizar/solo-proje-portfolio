@@ -1,7 +1,7 @@
 import React from "react";
-import EducationCard from "../components/EducationCard";
+
 import { Education, Experince, Line } from "../components/icons";
-import "../resume.css";
+import "../styles/resume.css";
 
 const Resume = () => {
   const educations = [

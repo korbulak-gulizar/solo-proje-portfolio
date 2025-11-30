@@ -1,0 +1,108 @@
+.work-container {
+  background-color: #ffffff; /* Beyaz */
+  max-width: 820px;
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  margin-top: 8px;
+
+  padding: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+.work-title-row {
+  display: flex;
+  align-items: center;
+  gap: 12px; /* başlık ile çizgi arası boşluk */
+  margin-bottom: 20px;
+}
+
+.work-title {
+  font-size: clamp(24px, 4vw, 40px); /* mobilde küçük, desktopta büyük */
+  letter-spacing: clamp(1px, 0.3vw, 3px);
+  font-family: var(--font-primary);
+  padding-left: 20px;
+  padding-top: 10px;
+  font-size: 40px;
+}
+.work-tabs {
+  display: flex; /* yan yana diz */
+  justify-content: flex-end; /* sağa yasla */
+  gap: 1px; /* butonlar arası boşluk */
+  margin-right: 20px;
+  margin-bottom: 10px;
+  margin-top: -20px;
+}
+
+.work-tabs button {
+  background: none;
+  border: none;
+  font-size: 14px;
+
+  font-weight: 500;
+  cursor: pointer;
+  padding: 2px 4px;
+
+  transition: color 0.3s ease;
+  color: #333;
+  font-family: var(--font-primary);
+}
+
+.work-tabs button:hover {
+  color: #ff4d4d;
+}
+.work-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 sütun, her biri eşit genişlik */
+  column-gap: 24px; /* sütunlar arası boşluk */
+  row-gap: 20px; /* satırlar arası boşluk */
+  max-width: 724px;
+  margin-bottom: 100px;
+}
+
+.work-card {
+  max-width: 350px;
+  border-radius: 15px;
+  padding: 10px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Soldaki sütundaki kartlar (1., 3., 5. ...) */
+.work-grid .work-card:nth-child(odd) {
+  height: 160px; /* soldaki kartlar daha büyük */
+}
+
+.work-grid .work-card:nth-child(odd) img {
+  height: 100px; /* görseli de büyüt */
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Sağdaki sütundaki kartlar (2., 4., 6. ...) */
+.work-grid .work-card:nth-child(even) {
+  height: 220px; /* sağdaki kartlar daha küçük */
+}
+
+.work-grid .work-card:nth-child(even) img {
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.work-card-title {
+  font-size: clamp(14px, 2vw, 16px);
+  font-weight: 400;
+  margin: 2px 0 2px;
+  font-family: var(--font-primary);
+}
+
+.work-card-subtitle {
+  font-size: clamp(10px, 1.5vw, 12px);
+  color: #444;
+  margin: 0;
+  font-family: var(--font-primary);
+}

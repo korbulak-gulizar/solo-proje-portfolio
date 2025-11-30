@@ -1,5 +1,5 @@
 import React from "react";
-import { useState } from "react";
+
 import {
   TwitterIcon,
   GitHubIcon,
@@ -10,7 +10,7 @@ import {
   LocationIcon,
   DownloadIcon,
 } from "./icons";
-import "../sidebar.css";
+import "../styles/sidebar.css";
 
 export const Sidebar = () => {
   return (

@@ -7,7 +7,7 @@ import {
   Mentorship,
   Line,
 } from "../components/icons";
-import "../about.css";
+import "../styles/about.css";
 
 const AboutMe = () => {
   const skills = [
