@@ -1,4 +1,5 @@
 import React from "react";
+
 import { Education, Experince, Line } from "../components/icons";
 import "../styles/resume.css";
 
