@@ -7,7 +7,7 @@ import Resume from "./sections/Resume";
 import Work from "./sections/Work";
 
 const App = () => {
-  const [activeTab, setActiveTab] = useState("work");
+  const [activeTab, setActiveTab] = useState("home");
   return (
     <div className="layout">
       <Header />
