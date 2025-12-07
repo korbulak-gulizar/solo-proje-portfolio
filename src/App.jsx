@@ -8,7 +8,7 @@ import Work from "./sections/Work";
 import Contact from "./sections/Contact";
 
 const App = () => {
-  const [activeTab, setActiveTab] = useState("work");
+  const [activeTab, setActiveTab] = useState("home");
   return (
     <div className="layout">
       <Header />
