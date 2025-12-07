@@ -5,6 +5,7 @@ import { Sidebar } from "./components/Sidebar";
 import AboutMe from "./sections/AboutMe";
 import Resume from "./sections/Resume";
 import Work from "./sections/Work";
+import Contact from "./sections/Contact";
 
 const App = () => {
   const [activeTab, setActiveTab] = useState("work");
@@ -17,6 +18,7 @@ const App = () => {
         {activeTab === "home" && <AboutMe />}
         {activeTab === "resume" && <Resume />}
         {activeTab === "work" && <Work />}
+        {activeTab === "contact" && <Contact />}
       </section>
     </div>
   );
