@@ -1,7 +1,7 @@
 .layout {
   max-width: 1240px;
   margin: 0 auto;
-  overflow: hidden;
+
 }
 .layout-container {
   display: flex;
@@ -146,6 +146,10 @@ body.dark .navbar-icon-button {
 
 /* 768px ve altı ekranlar için */
 @media (max-width: 768px) {
+  .layout-container {
+    flex-direction: column-reverse;
+    margin-bottom: 80px;
+  }
   .navbar {
     display: flex;
     flex-direction: column;
@@ -154,17 +158,11 @@ body.dark .navbar-icon-button {
 
   .navbar-container {
     display: none;
-    flex-direction: column;
-    gap: 16px;
-    margin-top: 10px;
-    padding: 10px;
-    width: 100%;
-    border-radius: 0;
-    box-shadow: none;
-    background-color: transparent;
+    align-self: flex-start;
+    gap: 20px;
   }
 
-  .navbar-container.open {
+  .navbar-container.show {
     display: flex;
   }
 
@@ -178,6 +176,7 @@ body.dark .navbar-icon-button {
     padding: 10px;
     background-color: #e1e8ef;
     border-radius: 10px;
+    min-width: 75px;
   }
 
   .navbar-icon-button span {
