@@ -1,25 +1,14 @@
-import React from "react";
 import SkillCard from "../components/SkillCard";
 import ContactForm from "../components/ContactForm";
-import {
-  Designing,
-  Developer,
-  Instagram,
-  Mentorship,
-  Line,
-  PhoneIcon,
-  Email,
-} from "../components/icons";
+import { PhoneIcon, Email, Line } from "../components/icons";
 import "../styles/about.css";
 
 const Contact = () => {
   const skills = [
     {
       icon: <PhoneIcon />,
-      title: "Phone",
-      description: `
-        +254723909353
-      +254738509151`,
+      title: "Phone:",
+      description: `+254723909353\n+254738509151`,
       bigColor: "#FFEBD1",
     },
     {
@@ -45,6 +34,7 @@ const Contact = () => {
             title={skill.title}
             description={skill.description}
             bgColor={skill.bigColor}
+            isContact={true}
           />
         ))}
       </div>

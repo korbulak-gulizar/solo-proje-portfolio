@@ -16,11 +16,11 @@ const ContactForm = () => {
 
   return (
     <div>
-      <p>
-        I am always open to discussing new projects, opportunities in tech
-        world, partnerships and more so mentorship.{" "}
-      </p>
       <form className="contact-form" onSubmit={onSubmit}>
+        <p className="contact-desc">
+          I am always open to discussing <span>new projects, opportunities in tech
+          world, partnerships </span>  and more so <span>mentorship.</span> {" "}
+        </p>
         <div className="input-container">
           <label htmlFor="name">Name:</label>
           <input

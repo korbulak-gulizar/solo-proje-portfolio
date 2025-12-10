@@ -48,10 +48,25 @@
 }
 
 .contact-form {
-  max-width: 694px;
   width: 100%;
   height: auto;
   background-color: #f8fbfb;
-  padding: 20px;
+  padding: 30px;
   border-radius: 12px;
+  margin-top: 20px;
+}
+
+.contact-desc {
+  color: black;
+}
+.contact-desc span {
+  font-weight: 700;
+  letter-spacing: 2.5;
+  line-height: 30px;
+}
+
+@media (max-width: 768px) {
+  .contact-container {
+    height: auto;
+  }
 }

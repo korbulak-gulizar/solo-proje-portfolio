@@ -18,7 +18,7 @@ export const Navbar = ({ activeTab, setActiveTab }) => {
         >
           <span>☰</span>
         </button>
-        <button className="dark-mode-toggle"></button>
+
       </div>
       <div className={`navbar-container ${menuOpen ? "show" : ""}`}>
         <div

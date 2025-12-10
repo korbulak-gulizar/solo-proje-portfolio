@@ -23,6 +23,15 @@
   line-height: 1.8; /* satır aralığını azaltır */
   font-size: 12px;
 }
+
+.contact-skill-description{
+  font-family: var(--font-primary);
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.85);
+  white-space: pre-line;
+}
+
 .aboutMe-title {
   display: flex;
   align-items: center;
@@ -73,6 +82,7 @@
   transform: translateY(-5px);
 }
 .card-title {
+  font-family: var(--font-primary);
   display: flex;
   align-items: center;
   gap: 12px; /* ikon ile yazı arası boşluk */

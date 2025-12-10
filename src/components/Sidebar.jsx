@@ -19,6 +19,9 @@ export const Sidebar = () => {
         <img src="/assets/images/portre.png" alt="Portre" />
       </div>
       <section className="portre-container">
+          <div className="portre-image-response">
+        <img src="/assets/images/portre.png" alt="Portre" />
+      </div>
         <h2 className="name">Beatrice Wambui</h2>
         <p className="title">FullStack Developer</p>
 
